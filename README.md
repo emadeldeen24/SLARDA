@@ -1,11 +1,11 @@
 # Self-supervised Autoregressive Domain Adaptation for Time Series Data (SLARDA) [[Paper](https://arxiv.org/abs/2111.14834)]
 #### *by: Mohamed Ragab, Emadeldeen Eldele, Zhenghua Chen, Min Wu, Chee Keong Kwoh, and  Xiaoli Li*
-#### IEEE Transactions on Neural Networks and Learning Systems (TNNLS-22) (Impact Factor: 10.451).
+#### [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/document/9804766) (Impact Factor: 14.255).
 
 ## Abstract
 <img src="SLARDA_1.PNG" width="1000">
 Unsupervised domain adaptation (UDA) has successfully addressed the domain shift problem for visual applications. Yet, these approaches may have limited performance for time series data due to the following reasons. First, they mainly rely on the large-scale dataset (i.e., ImageNet) for the source pretraining, which is not applicable for time-series data. Second, they ignore the temporal dimension on the feature space of the source and target domains during the domain alignment step. Last, most of the prior UDA methods can only align the global features without considering the fine-grained class distribution of the target domain. To address these limitations, we propose a Self-supervised autoregressive Domain Adaptation (SLARDA) framework. In particular, we first design a self-supervised learning module that utilizes forecasting as an auxiliary task to improve the transferability of the source features. Second, we propose a novel autoregressive domain adaptation technique that incorporates temporal dependency of both source and target features during domain alignment. Finally, we develop an ensemble teacher model to align the class-wise distribution in the target domain via a confident pseudo labeling approach.
-Extensive experiments have been conducted on three real-world time series applications with 30 cross-domain scenarios. Results demonstrate that our proposed SLARDA method significantly outperforms the state-of-the-art approaches for time series domain adaptation. Our source code is available at: \href{https://github.com/mohamedr002/SLARDA}{https://github.com/mohamedr002/SLARDA}.
+Extensive experiments have been conducted on three real-world time series applications with 30 cross-domain scenarios. Results demonstrate that our proposed SLARDA method significantly outperforms the state-of-the-art approaches for time series domain adaptation.
 
 ## Requirmenets:
 - Python3.x
@@ -39,7 +39,7 @@ Extensive experiments have been conducted on three real-world time series applic
 ## Citation
 If you found this work useful for you, please consider citing it.
 ```
-@article{amda_tim,
+@article{slarda_tnnls,
   author={Ragab, Mohamed and Eldele, Emadeldeen and Chen, Zhenghua and Wu, Min and Li, Haoliang and Kwoh, Chee-Keong and Li, Xiaoli},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={Self-supervised Autoregressive Domain Adaptation for Time Series Data}, 
