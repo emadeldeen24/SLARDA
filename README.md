@@ -1,6 +1,6 @@
 # Self-supervised Autoregressive Domain Adaptation for Time Series Data (SLARDA) [[Paper](https://arxiv.org/abs/2111.14834)]
 #### *by: Mohamed Ragab, Emadeldeen Eldele, Zhenghua Chen, Min Wu, Chee Keong Kwoh, and  Xiaoli Li*
-#### [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/document/9804766) (Impact Factor: 14.255).
+#### This paper has been accepted for publication in the [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/document/9804766) (Impact Factor: 14.255).
 
 ## Abstract
 <img src="SLARDA_1.PNG" width="1000">
